@@ -29,10 +29,19 @@
         </p>
     </header>
 
-    <form id="login-form">
-        <input type="text" placeholder="Email or phone number" />
-        <input type="password" placeholder="Password" />
+    <!-- Use Id
+    <form action="friends.html" method="GET" id="login-form">
+        <input name="username" type="text" placeholder="Email or phone number" />
+        <input name="password" type="password" placeholder="Password" />
         <input type="submit" value="Log In" />
+        <a href="#">Find Kokoa Account or Password</a>
+    </form>
+-->
+
+    <form action="friends.html" method="GET" class="login-form">
+        <input name="username" type="text" placeholder="Email or phone number" class="login-form__input" />
+        <input name="password" type="password" placeholder="Password" class="login-form__input" />
+        <input type="submit" value="Log In" class="login-form__btn" />
         <a href="#">Find Kokoa Account or Password</a>
     </form>
 
