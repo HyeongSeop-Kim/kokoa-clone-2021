@@ -12,6 +12,6 @@
 }
 .alert-dot__header {
   position: absolute;
-  right: -75px;
-  top: -25px;
+  right: 15px;
+  top: 25px;
 }

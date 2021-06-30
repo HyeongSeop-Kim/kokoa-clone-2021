@@ -5,6 +5,7 @@
   margin-top: 26px;
   padding: var(--horizontal-space);
   margin-bottom: 15px;
+  position: relative;
 }
 .screen-header__title {
   font-size: 32px;
@@ -12,5 +13,4 @@
 }
 .screen-header__icons span {
   margin-left: 25px;
-  position: relative;
 }
