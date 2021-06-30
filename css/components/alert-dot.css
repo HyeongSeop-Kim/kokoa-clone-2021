@@ -1,0 +1,17 @@
+.alert-dot {
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  display: block;
+}
+.alert-dot__nav {
+  position: absolute;
+  right: -8px;
+  top: -8px;
+}
+.alert-dot__header {
+  position: absolute;
+  right: -75px;
+  top: -25px;
+}
